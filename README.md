@@ -1,38 +1,34 @@
 
-## 平台简介
+## Platform Introduction
+Frontend uses Vue.js and Element UI.
+Backend is built with Spring Boot, Spring Security, Redis, and JWT.
+JWT is used for authentication, supporting multi-terminal authentication system.
+Supports loading dynamic permission menus and easily controlling permissions through various methods.
+Highly efficient development with a code generator that can generate frontend and backend code with just one click.
 
-* 前端采用Vue、Element UI。
-* 后端采用Spring Boot、Spring Security、Redis & Jwt。
-* 权限认证使用Jwt，支持多终端认证系统。
-* 支持加载动态权限菜单，多方式轻松权限控制。
-* 高效率开发，使用代码生成器可以一键生成前后端代码。
+## Built-in Features
+User Management: Manages system operators, mainly for configuring system user settings.
+Department Management: Configures organizational structures (companies, departments, groups) with tree structure display and data permission support.
+Position Management: Configures positions held by system users.
+Menu Management: Configures system menus, operation permissions, button permission identifiers, etc.
+Role Management: Allocates role menu permissions and sets role-based data scope permissions by organization.
+Dictionary Management: Maintains frequently used and relatively fixed data in the system.
+Parameter Management: Dynamically configures commonly used parameters in the system.
+Announcement Management: Publishes and maintains system notification and announcement information.
+Operation Logs: Records and queries normal system operation logs and exception information logs.
+Login Logs: Records and queries system login logs, including login exceptions.
+Online Users: Monitors the status of active users in the current system.
+Scheduled Tasks: Online (add, modify, delete) task scheduling with execution result logs.
+Code Generation: Generates frontend and backend code (Java, HTML, XML, SQL) with CRUD support for download.
+System Interface: Automatically generates relevant API interface documents based on business code.
+Service Monitoring: Monitors system CPU, memory, disk, stack, and other related information.
+Cache Monitoring: Queries system cache information, command statistics, etc.
+Online Builder: Drag and drop form elements to generate corresponding HTML code.
+Connection Pool Monitoring: Monitors the current system database connection pool status and performs SQL analysis to identify system performance bottlenecks.
 
-## 内置功能
-
-1.  用户管理：用户是系统操作者，该功能主要完成系统用户配置。
-2.  部门管理：配置系统组织机构（公司、部门、小组），树结构展现支持数据权限。
-3.  岗位管理：配置系统用户所属担任职务。
-4.  菜单管理：配置系统菜单，操作权限，按钮权限标识等。
-5.  角色管理：角色菜单权限分配、设置角色按机构进行数据范围权限划分。
-6.  字典管理：对系统中经常使用的一些较为固定的数据进行维护。
-7.  参数管理：对系统动态配置常用参数。
-8.  通知公告：系统通知公告信息发布维护。
-9.  操作日志：系统正常操作日志记录和查询；系统异常信息日志记录和查询。
-10. 登录日志：系统登录日志记录查询包含登录异常。
-11. 在线用户：当前系统中活跃用户状态监控。
-12. 定时任务：在线（添加、修改、删除)任务调度包含执行结果日志。
-13. 代码生成：前后端代码的生成（java、html、xml、sql）支持CRUD下载 。
-14. 系统接口：根据业务代码自动生成相关的api接口文档。
-15. 服务监控：监视当前系统CPU、内存、磁盘、堆栈等相关信息。
-16. 缓存监控：对系统的缓存信息查询，命令统计等。
-17. 在线构建器：拖动表单元素生成相应的HTML代码。
-18. 连接池监视：监视当前系统数据库连接池状态，可进行分析SQL找出系统性能瓶颈。
-
-## 在线体验
-
-演示地址：http://vue.ruoyi.vip  
-文档地址：http://doc.ruoyi.vip
-
+## Online Experience
+Demo Address: http://vue.ruoyi.vip
+Documentation Address: http://doc.ruoyi.vip
 ## 演示图
 
 <table>
@@ -71,6 +67,3 @@
 </table>
 
 
-## 若依前后端分离交流群
-
-QQ群： [![加入QQ群](https://img.shields.io/badge/已满-937441-blue.svg)](https://jq.qq.com/?_wv=1027&k=5bVB1og) [![加入QQ群](https://img.shields.io/badge/已满-887144332-blue.svg)](https://jq.qq.com/?_wv=1027&k=5eiA4DH) [![加入QQ群](https://img.shields.io/badge/已满-180251782-blue.svg)](https://jq.qq.com/?_wv=1027&k=5AxMKlC) [![加入QQ群](https://img.shields.io/badge/已满-104180207-blue.svg)](https://jq.qq.com/?_wv=1027&k=51G72yr) [![加入QQ群](https://img.shields.io/badge/已满-186866453-blue.svg)](https://jq.qq.com/?_wv=1027&k=VvjN2nvu) [![加入QQ群](https://img.shields.io/badge/已满-201396349-blue.svg)](https://jq.qq.com/?_wv=1027&k=5vYAqA05) [![加入QQ群](https://img.shields.io/badge/已满-101456076-blue.svg)](https://jq.qq.com/?_wv=1027&k=kOIINEb5) [![加入QQ群](https://img.shields.io/badge/已满-101539465-blue.svg)](https://jq.qq.com/?_wv=1027&k=UKtX5jhs) [![加入QQ群](https://img.shields.io/badge/已满-264312783-blue.svg)](https://jq.qq.com/?_wv=1027&k=EI9an8lJ) [![加入QQ群](https://img.shields.io/badge/已满-167385320-blue.svg)](https://jq.qq.com/?_wv=1027&k=SWCtLnMz) [![加入QQ群](https://img.shields.io/badge/已满-104748341-blue.svg)](https://jq.qq.com/?_wv=1027&k=96Dkdq0k) [![加入QQ群](https://img.shields.io/badge/已满-160110482-blue.svg)](https://jq.qq.com/?_wv=1027&k=0fsNiYZt) [![加入QQ群](https://img.shields.io/badge/已满-170801498-blue.svg)](https://jq.qq.com/?_wv=1027&k=7xw4xUG1) [![加入QQ群](https://img.shields.io/badge/已满-108482800-blue.svg)](https://jq.qq.com/?_wv=1027&k=eCx8eyoJ) [![加入QQ群](https://img.shields.io/badge/已满-101046199-blue.svg)](https://jq.qq.com/?_wv=1027&k=SpyH2875) [![加入QQ群](https://img.shields.io/badge/已满-136919097-blue.svg)](https://jq.qq.com/?_wv=1027&k=tKEt51dz) [![加入QQ群](https://img.shields.io/badge/143961921-blue.svg)](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=0vBbSb0ztbBgVtn3kJS-Q4HUNYwip89G&authKey=8irq5PhutrZmWIvsUsklBxhj57l%2F1nOZqjzigkXZVoZE451GG4JHPOqW7AW6cf0T&noverify=0&group_code=143961921) 点击按钮入群。# SpringBoot
